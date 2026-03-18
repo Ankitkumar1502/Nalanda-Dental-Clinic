@@ -1,16 +1,38 @@
-# React + Vite
+# 🦷 Nalanda Dental Clinic - Premium Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, high-performance dental clinic website built for **Dr. Praveen Prasad (BDS)** in Khajpura, Patna. This project is designed to convert local search traffic into clinic appointments through a seamless, mobile-first user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📸 Project Preview
 
-## React Compiler
+| Desktop View | Mobile Responsive |
+| :---: | :---: |
+| ![Desktop Screenshot](screenshots/desktop.png) | ![Mobile Screenshot](screenshots/mobile.png) |
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Key Features
+* **Modern UI/UX:** Clean, hygienic medical aesthetic using a "Deep Navy & Clinical Cyan" palette.
+* **Performance:** Optimized with **Vite** for near-instant load times.
+* **Interactive Elements:** Smooth scroll animations powered by **Framer Motion**.
+* **Conversion Ready:** * Functional Appointment Booking Modal.
+    * One-tap WhatsApp integration for instant patient inquiries.
+* **Fully Responsive:** Pixel-perfect layout across all devices (Mobile, Tablet, Desktop).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+* **Core:** React.js (Vite)
+* **Styling:** Tailwind CSS
+* **Animations:** Framer Motion
+* **Icons:** Lucide React
+* **Deployment:** Vercel
+
+## 📂 Project Structure
+```text
+artifacts/nalanda-dental/
+├── src/
+│   ├── components/    # Reusable UI sections (Hero, Services, Expert, etc.)
+│   ├── App.jsx        # Main application logic
+│   └── main.jsx       # Entry point
+├── public/            # Static assets
+└── vite.config.ts     # Build configuration
